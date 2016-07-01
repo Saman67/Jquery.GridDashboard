@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+.grid {
+    margin: 10px;
+    position: relative;
+}
+.grid-item {
+    background: #00B7FF;
+    display: inline-block;
+    text-align: center;
+    font-size: 140px;
+    vertical-align: middle;
+    line-height: 230px;
+    width: 50%;
+    float: left;
+}
+.placeholder {
+    border: 1px #444 dashed;
+    height: 10px;
+    z-index: 9999;
+    width: 400px;
+}
